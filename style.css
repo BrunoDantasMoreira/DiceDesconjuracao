@@ -3,7 +3,7 @@
 body {
     background: rgb(48, 97, 172);
     font-family: 'Bangers';
-    background: url('https://static.wikia.nocookie.net/ordemparanormal/images/5/50/Wiki-background/revision/latest/scale-to-width-down/1600?cb=20201102203234&path-prefix=pt-br'),no-repeat;
+    background: url(imagens/background.webp),no-repeat;
     background-size: 1400px;
     overflow-x: hidden;
 }
