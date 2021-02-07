@@ -24,5 +24,10 @@ function start() {
     }, time)
 }
 
+function change() {
+    nextImage()
+    // currentImageIndex = 0
+}
+
 window.addEventListener("load", start)
 

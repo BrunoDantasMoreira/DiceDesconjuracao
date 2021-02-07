@@ -969,7 +969,7 @@ function Navegação() {
     '<p id="aSo"> <br> </p>';
 }
 
-function RolarMu() {
+function RolarNa() {
     document.querySelector("body").style.overflow = 'auto';
     var answer = document.querySelector("div#res");
     random = Math.random() * 20;
@@ -1084,7 +1084,7 @@ function exibir() {
     document.getElementById("res").style.position = "relative"
     document.getElementById("res").style.top = "0px"
     document.getElementById("res").style.opacity = "100%"
-    document.getElementById("res").style.background = 'darkred'; 
+    // document.getElementById("res").style.background = 'darkred'; 
     document.getElementById("res").style.borderRadius = '15px';
     document.getElementById("res").style.padding = '35px';
     document.getElementById("res").style.width = '100px';
