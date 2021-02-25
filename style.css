@@ -7,6 +7,24 @@ body {
     background-size: 1400px;
     overflow-x: hidden;
 }
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {   
+    background-color: rgb(108, 108, 108);   
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:active {   
+    background-color: rgb(87, 87, 87);
+}
+
+body::-webkit-scrollbar-track {
+    background-image: url(imagens/background-bar.webp);
+}
+
 header {
     color: rgb(255, 255, 255);
     text-align: center;
